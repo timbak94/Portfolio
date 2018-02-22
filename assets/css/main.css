@@ -2983,7 +2983,7 @@
 			}
 
 		.wrapper.style4 {
-			padding-top: 80px;
+			padding-top: 10px;
 			padding-bottom: 20px;
 			background-color: transparent;
 		}
@@ -3613,7 +3613,7 @@
 			-ms-order: 1;
 			order: 1;
 			padding-right: 3em;
-			margin-top: 140px;
+			margin-top: 100px;
 			width: 70%;
 		}
 
@@ -3847,9 +3847,12 @@
 	}
 
 	.circle-pic {
+		display: block;
+		margin: auto;
+		margin-bottom: 35px;
 		border: 3px solid white;
-		height: 400px;
-		width: 400px;
+		height: 200px;
+		width: 200px;
 		border-radius: 50%;
 		transition: box-shadow .3s;
 	}
